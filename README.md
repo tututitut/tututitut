@@ -1,6 +1,6 @@
 <h1 data-importer="text" align="center">Hey 👋What's Up?</h1>
 
-<h3 align="center">🚀 "Transforming Ideas into Reality with Code & Hardware"</h3>
+<h3 align="center">"Transforming Ideas into Reality with Code & Hardware"</h3>
 <p align="center">
   We are <b>Tim Tututitut</b>. We are a development team focused on a variety of innovative projects, ranging from <i>Internet of Things (IoT)</i>, web development to interactive UI/UX design. We’re always open to exploring new technologies!
 </p>
@@ -56,7 +56,16 @@
 <br clear="both">
 <br/>
 
-<h2 align="center">🏆 GitHub Analytics & Trophies</h2>
+<div align="center">
+  <h3>Contribution</h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tututitut/tututitut/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tututitut/tututitut/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/tututitut/tututitut/output/github-contribution-grid-snake.svg" width="100%">
+  </picture>
+</div>
+
+<h2 align="center">Analytics & Trophies</h2>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=tututitut&theme=dracula&hide_border=true&background=0D1117" alt="GitHub Streak" />
@@ -74,7 +83,7 @@
 
 <br/>
 
-<h3 align="center">Let's Connect! 🤝</h3>
+<h3 align="center">Let's Connect!</h3>
 
 <div data-importer="socials" align="center">
   <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
