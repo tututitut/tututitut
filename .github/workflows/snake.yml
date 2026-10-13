@@ -1,0 +1,40 @@
+name: Generate Snake Animation
+
+on:
+  # Robot akan berjalan otomatis setiap jam 00:00
+  schedule:
+    - cron: "0 0 * * *" 
+  
+  # Memungkinkan kita menjalankan robot secara manual
+  workflow_dispatch:
+  
+  # Robot akan berjalan jika ada update di branch utama
+  push:
+    branches:
+    - main
+    - master
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      # Langkah 1: Mengambil grafik GitHub kalian
+      - name: Generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: tututitut
+          # Mengeluarkan 2 versi: Terang dan Gelap
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            
+      # Langkah 2: Menyimpan gambarnya ke branch bernama 'output'
+      - name: Push to GitHub
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
