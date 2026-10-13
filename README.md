@@ -61,7 +61,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tututitut/tututitut/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tututitut/tututitut/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/tututitut/tututitut/output/github-contribution-grid-snake.svg" width="100%">
+    <img alt="Contribution Graph" src="https://raw.githubusercontent.com/tututitut/tututitut/output/github-contribution-grid-snake.svg" width="100%">
   </picture>
 </div>
 
@@ -73,13 +73,9 @@
 
 <div align="center">
   <a href="https://github.com/tututitut">
-    <img src="https://github-profile-trophy.vercel.app/?username=tututitut&theme=dracula&no-frame=true&no-bg=true&margin-w=15&column=7" alt="Trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=tututitut&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" alt="Trophies" />
   </a>
 </div>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=tututitut&theme=dracula&hide_border=true&bg_color=0D1117" width="100%" alt="Contribution Graph" />
-</p>
 
 <br/>
 
